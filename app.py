@@ -64,4 +64,4 @@ def predict():
 	#return render_template('index.html', pred= final_features)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
