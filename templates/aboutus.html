@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+Body {  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color:hsl(0, 0%, 71%);  
+} 
+
+.card {
+  box-shadow: 0 40px 40px 0 rgba(215, 40, 70, 0.2);
+  max-width: 400px;
+  margin: centre;
+  text-align: center;
+  font-family: arial;
+  background-color:hsl(0, 0%, 71%); 
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-bottom: 50px;
+  padding: 0 40px;
+}
+
+.container {
+  padding: 0 75px;
+}
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+
+
+</style>
+</head>
+<body>
+<br>
+<center>
+<h2 style="text-shadow: 2px 2px 5px Violet;"><font size="20" color="black"><b> About Us </b></font></h2>
+</center>
+<br>
+<br>
+<br>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <!--<img src="/w3images/team2.jpg" alt="John" style="width:100%">-->
+			<br>
+            <h1 style="text-shadow: 2px 2px 5px Violet;"><font size="6"><b>Manpreet Kaur</b></font></h1>
+			<br>
+            <p class="title"> <font size="4" color="black"><b>Electronics and Communication Engineer </b></font></p>
+            <p><b>9779775745sapna@gmail.com</b></p>
+            <div style="margin: 14px 0;">
+              <!-- href="#"><font size="6" color="blue"><i class="fa fa-twitter"></i></font></a> -->
+				<a href="https://wa.link/t5us50"><font size="6" color="green"><i class="fa fa-whatsapp"></font></i></a> 
+                <a href="https://www.instagram.com/kaur_man702/"><font size="6" color="#c94c4c"><i class="fa fa-instagram"></font></i></a> 
+				<a href="https://www.snapchat.com/add/man9034"><font size="6" color="yellow"><i class="fa fa-snapchat-square"></font></i></a> 
+				
+            </div>
+          <!--<p><button>Contact</button></p>-->
+        </div>
+    </div>
+  
+    <div class="column">
+        <div class="card">
+          <!--<img src="/w3images/team2.jpg" alt="John" style="width:100%">-->
+		    <br>
+            <h1 style="text-shadow: 2px 2px 5px Violet;"><font size="6" color="black"><b>Sakshi Sharma</b></font></h1>
+			<br>
+            <p class="title"> <font size="4" color="black"><b>Electronics and Communication Engineer</b> </font></p>
+            <p><b>angrishsakshi3645@gmail.com</b></p>
+            <div style="margin: 14px 0;">
+                <a href=https://twitter.com/SakshhSharma?s=08""><font size="6" color="blue"><i class="fa fa-twitter"></i></font></a> 
+				<a href="https://wa.link/rbw5kg"><font size="6" color="green"><i class="fa fa-whatsapp"></i></font></a> 
+				<a href="https://www.snapchat.com/add/sakshiangrish2"><font size="6" color="yellow"><i class="fa fa-snapchat-square"></i></font></a>
+            </div>
+          <!--<p><button>contact</button></p>-->
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+{% endblock content %}	
